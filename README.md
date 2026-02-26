@@ -85,13 +85,23 @@ Fine-tuning the full DeepLabV3-ResNet50 backbone achieved the best performance w
 
 ## 🖼️ Example Predictions
 
-(Add 2–3 example overlay images here inside a `sample_results/` folder)
+### Ground Truth vs Prediction Comparison
+![Comparison Example](sample_results/comparison_example.png)
 
-Example format:
+### Real-World Inference (Bench – HuggingFace Demo)
+![Bench Demo](sample_results/hf_bench_demo.png)
 
-```markdown
-![Overlay Example](sample_results/example_overlay.png)
-```
+### Real-World Inference (Machine – HuggingFace Demo)
+![Machine Demo](sample_results/hf_machine_demo.png)
+
+---
+## 🎨 Color Legend
+
+The segmentation output uses the following class color mapping:
+
+- 🟢 **Green** → Bench  
+- 🔴 **Red** → Machine  
+- ⚫ **Black** → Background  
 
 ---
 
